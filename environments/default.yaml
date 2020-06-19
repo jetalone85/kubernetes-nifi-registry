@@ -1,0 +1,7 @@
+replicas: 1
+image: michalklempa/nifi-registry:latest
+storage:
+  class: gp2
+  size: 5Gi
+memoryrequest: "256Mi"
+cpurequest: "500m"
